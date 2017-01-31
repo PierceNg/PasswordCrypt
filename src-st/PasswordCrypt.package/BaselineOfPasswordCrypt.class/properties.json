@@ -1,0 +1,14 @@
+{
+	"category" : "PasswordCrypt",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "PierceNg 1/31/2017 13:49",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfPasswordCrypt",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }

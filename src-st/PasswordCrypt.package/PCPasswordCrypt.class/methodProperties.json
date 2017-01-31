@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"sha256Crypt:withSalt:" : "PierceNg 11/27/2016 22:56",
+		"sha512Crypt:withSalt:" : "PierceNg 11/27/2016 22:56" },
+	"instance" : {
+		"initialize" : "PierceNg 11/27/2016 23:46",
+		"salt:" : "PierceNg 11/27/2016 23:50",
+		"saltSize" : "PierceNg 11/27/2016 23:25",
+		"sha256Crypt:" : "PierceNg 11/27/2016 23:59",
+		"sha256Crypt:withSalt:" : "PierceNg 11/27/2016 23:12",
+		"sha256HashedSize" : "PierceNg 11/27/2016 23:56",
+		"sha512Crypt:" : "PierceNg 11/27/2016 23:59",
+		"sha512Crypt:withSalt:" : "PierceNg 11/27/2016 23:13",
+		"sha512HashedSize" : "PierceNg 11/27/2016 23:56" } }
