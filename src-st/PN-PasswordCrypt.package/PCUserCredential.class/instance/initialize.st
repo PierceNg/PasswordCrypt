@@ -1,0 +1,4 @@
+initializing
+initialize
+
+	appname := '<Unnamed>'

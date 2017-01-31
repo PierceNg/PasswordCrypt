@@ -1,0 +1,14 @@
+{
+	"category" : "PN-PasswordCrypt",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "PierceNg 12/4/2016 12:00",
+	"instvars" : [
+		 ],
+	"name" : "PCPasswordAuthenticatorError",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }

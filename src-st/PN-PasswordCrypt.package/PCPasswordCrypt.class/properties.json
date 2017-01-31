@@ -1,0 +1,16 @@
+{
+	"category" : "PN-PasswordCrypt",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"saltStock",
+		"saltSizeRand",
+		"saltStringRand" ],
+	"name" : "PCPasswordCrypt",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

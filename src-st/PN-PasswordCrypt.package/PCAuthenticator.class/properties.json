@@ -1,0 +1,16 @@
+{
+	"category" : "PN-PasswordCrypt",
+	"classinstvars" : [
+		"uniqueInstance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "PierceNg 12/3/2016 14:22",
+	"instvars" : [
+		"appName",
+		"crypt",
+		"db" ],
+	"name" : "PCAuthenticator",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

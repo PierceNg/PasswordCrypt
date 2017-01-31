@@ -1,0 +1,14 @@
+{
+	"category" : "PN-PasswordCrypt",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "PierceNg 1/30/2017 23:21",
+	"instvars" : [
+		"auth" ],
+	"name" : "PCAuthenticatorTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
