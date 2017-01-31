@@ -3,4 +3,4 @@ baseline: spec
 	<baseline>
 	
 	spec for: #common do: [ 
-		spec package: 'PN-PasswordCrypt' ]
+		spec package: 'PasswordCrypt' ]
