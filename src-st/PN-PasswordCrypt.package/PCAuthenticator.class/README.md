@@ -1,1 +1,0 @@
-I am the abstract super class for username/password authenticator.

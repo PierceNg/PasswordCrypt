@@ -1,3 +1,0 @@
-initialization
-resetUniqueInstance
-	uniqueInstance := nil
