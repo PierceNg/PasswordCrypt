@@ -1,0 +1,17 @@
+{
+	"category" : "PasswordCrypt",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "PierceNg 2/12/2017 16:40",
+	"instvars" : [
+		"appname",
+		"username",
+		"password",
+		"submitButton" ],
+	"name" : "PCAuthenticatorUI",
+	"pools" : [
+		 ],
+	"super" : "ComposableModel",
+	"type" : "normal" }
