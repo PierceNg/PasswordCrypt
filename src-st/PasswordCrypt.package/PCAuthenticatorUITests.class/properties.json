@@ -1,0 +1,14 @@
+{
+	"category" : "PasswordCrypt",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "PierceNg 2/18/2017 14:12",
+	"instvars" : [
+		"ui" ],
+	"name" : "PCAuthenticatorUITests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

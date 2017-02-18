@@ -3,13 +3,15 @@
 		"resetUniqueInstance" : "PierceNg 1/30/2017 23:12",
 		"uniqueInstance" : "PierceNg 1/30/2017 23:16" },
 	"instance" : {
+		"appNamed:hasUserNamed:" : "PierceNg 2/18/2017 16:07",
+		"applications" : "PierceNg 2/18/2017 14:11",
 		"connect" : "PierceNg 1/30/2017 23:09",
 		"crypt" : "PierceNg 12/3/2016 18:30",
-		"deleteUserCredential:" : "PierceNg 12/3/2016 18:12",
+		"deleteUserCredential:" : "PierceNg 2/18/2017 16:04",
 		"disconnect" : "PierceNg 1/30/2017 23:09",
 		"initialize" : "PierceNg 1/30/2017 23:19",
 		"initializeDatabase" : "PierceNg 1/30/2017 23:17",
 		"initializeDatabaseFor:" : "PierceNg 1/30/2017 23:18",
-		"insertUserCredential:" : "PierceNg 1/30/2017 23:30",
+		"insertUserCredential:" : "PierceNg 2/18/2017 16:02",
 		"saltFromPassword:" : "PierceNg 12/4/2016 12:00",
 		"validateUserCredential:" : "PierceNg 1/30/2017 23:41" } }

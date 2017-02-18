@@ -4,6 +4,7 @@
 	"instance" : {
 		"appname" : "PierceNg 1/30/2017 23:31",
 		"setUp" : "PierceNg 1/30/2017 23:32",
-		"testInsertAndValidateUser" : "PierceNg 1/30/2017 23:35",
-		"testInsertAndValidateWrongPassword" : "PierceNg 1/30/2017 23:44",
-		"testValidateNoSuchUser" : "PierceNg 1/30/2017 23:32" } }
+		"testInsertAndRemoveUser" : "PierceNg 2/18/2017 16:21",
+		"testInsertAndValidateUser" : "PierceNg 2/18/2017 16:11",
+		"testInsertAndValidateWrongPassword" : "PierceNg 2/18/2017 16:11",
+		"testValidateNoSuchUser" : "PierceNg 2/18/2017 16:10" } }

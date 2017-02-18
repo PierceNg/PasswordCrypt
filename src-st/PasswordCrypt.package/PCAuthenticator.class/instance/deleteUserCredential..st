@@ -1,3 +1,5 @@
 public API
 deleteUserCredential: aUser
-	^ self subclassResponsibility 
+
+	(db at: aUser appname ifAbsent: [ ])
+		removeKey: aUser username ifAbsent: [ ] 
