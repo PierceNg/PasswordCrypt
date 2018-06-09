@@ -1,0 +1,3 @@
+public API
+cryptAlgo
+	^ cryptAlgo

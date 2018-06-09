@@ -1,15 +1,16 @@
 {
+	"commentStamp" : "PierceNg 12/3/2016 14:22",
+	"super" : "Object",
 	"category" : "PasswordCrypt",
 	"classinstvars" : [
-		"uniqueInstance" ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "PierceNg 12/3/2016 14:22",
+		"uniqueInstance"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"crypt",
-		"db" ],
+		"db"
+	],
 	"name" : "PCAuthenticator",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

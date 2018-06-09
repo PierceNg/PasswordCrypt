@@ -1,16 +1,15 @@
 {
-	"category" : "PasswordCrypt",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "PierceNg 12/3/2016 14:23",
+	"super" : "Object",
+	"category" : "PasswordCrypt",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"appname",
 		"username",
-		"password" ],
+		"password"
+	],
 	"name" : "PCUserCredential",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

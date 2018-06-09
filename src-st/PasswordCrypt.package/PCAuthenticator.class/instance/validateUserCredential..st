@@ -10,7 +10,7 @@ validateUserCredential: aUser
 	[ salt := self saltFromPassword: pwh ]
 	on: PCPasswordAuthenticatorError do: [ ^ nil ].
 
-	pwh2 := crypt sha256Crypt: aUser password withSalt: salt.
+	pwh2 := crypt perform: (crypt cryptAlgoWithSalt) with: aUser password with: salt.
 	^ (pwh2 = pwh) 
 		ifTrue: [ aUser ]
 		ifFalse: [ nil ]

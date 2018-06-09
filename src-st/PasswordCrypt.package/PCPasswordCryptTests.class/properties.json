@@ -1,14 +1,13 @@
 {
-	"category" : "PasswordCrypt",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "<historical>",
-	"instvars" : [
-		"crypt" ],
-	"name" : "PCPasswordCryptTests",
-	"pools" : [
-		 ],
 	"super" : "TestCase",
-	"type" : "normal" }
+	"category" : "PasswordCrypt",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"crypt"
+	],
+	"name" : "PCPasswordCryptTests",
+	"type" : "normal"
+}
