@@ -1,5 +1,5 @@
 lib = libshacrypt
-CFLAGS = -std=c99 -m32 -Wall
+CFLAGS = -std=c99 -Wall
 
 # detect platform
 ifeq ($(OS),Windows_NT)
