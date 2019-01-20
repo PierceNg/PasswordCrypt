@@ -1,1 +1,1 @@
-I am a user credential consisting of a username and its password.
+I am a user credential consisting of a username, its password and an associated application name.

@@ -7,7 +7,7 @@ validateUserCredential: aUser
 	
 	pwh := (db at: aUser appname) at: aUser username.
 	
-	[ salt := self saltFromPassword: pwh ]
+	[ salt := crypt saltFromPassword: pwh ]
 	on: PCPasswordAuthenticatorError do: [ ^ nil ].
 
 	pwh2 := crypt perform: (crypt cryptAlgoWithSalt) with: aUser password with: salt.

@@ -1,16 +1,11 @@
 {
 	"commentStamp" : "PierceNg 1/20/2019 14:15",
-	"super" : "ComposableModel",
+	"super" : "ZnBasicAuthenticator",
 	"category" : "PasswordCrypt",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"appname",
-		"username",
-		"password",
-		"submitButton"
-	],
-	"name" : "PCAuthenticatorUI",
+	"instvars" : [ ],
+	"name" : "PCBasicAuthenticator",
 	"type" : "normal"
 }

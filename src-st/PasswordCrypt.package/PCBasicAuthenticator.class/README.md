@@ -1,0 +1,1 @@
+I am PCBasicAuthenticator, a subclass of ZnBasicAuthenticator. I use PCAuthenticator to manage my usernames/passwords.

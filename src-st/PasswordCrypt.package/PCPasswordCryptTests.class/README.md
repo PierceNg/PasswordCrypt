@@ -1,1 +1,1 @@
-Tests for PCPasswordCrypt.
+Unit tests.

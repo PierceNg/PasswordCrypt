@@ -1,1 +1,1 @@
-I am the abstract super class for username/password authenticator.
+I am the PasswordCrypt username/password authenticator. I am a singleton. I use PCPasswordCrypt to create/verify salted+hashed passwords.
