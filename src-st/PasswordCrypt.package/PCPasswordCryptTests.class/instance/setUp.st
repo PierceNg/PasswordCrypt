@@ -1,3 +1,3 @@
 setUp-tearDown
 setUp
-	crypt := PCPasswordCrypt new
+	crypt := PCPasswordCrypt uniqueInstance 
