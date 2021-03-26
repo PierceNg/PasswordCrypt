@@ -1,3 +1,3 @@
-public API
+accessing
 cryptAlgo: anObject
 	cryptAlgo := anObject
