@@ -1,5 +1,5 @@
 initializing
 initialize
 
-	crypt := PCPasswordCrypt new.
+	crypt := PCPasswordCrypt uniqueInstance.
 	self initializeDatabase
