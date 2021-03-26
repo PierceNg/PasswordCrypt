@@ -1,3 +1,3 @@
 public API
 cryptAlgo
-	^ cryptAlgo
+	^ cryptAlgo ifNil: [ cryptAlgo := self class defaultAlgo ]

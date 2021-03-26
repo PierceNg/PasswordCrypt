@@ -1,3 +1,3 @@
 private
 saltSize
-	^ 7 + (saltSizeRand nextInt: 9)
+	^ 7 + (self saltSizeRand nextInteger: 9)

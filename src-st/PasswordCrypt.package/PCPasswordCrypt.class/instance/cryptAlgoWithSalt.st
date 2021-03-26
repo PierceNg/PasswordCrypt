@@ -1,7 +1,7 @@
 public API
 cryptAlgoWithSalt
 	
-	(self class supportedAlgo includes: cryptAlgo) ifFalse: [ 
+	(self class supportedAlgo includes: self cryptAlgo) ifFalse: [ 
 		PCPasswordAuthenticatorError signal: 'Unknown algorithm.' ].
 		
-	^ ((cryptAlgo asString), 'withSalt:') asSymbol
+	^ ((self cryptAlgo asString), 'withSalt:') asSymbol
