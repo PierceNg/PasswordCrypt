@@ -1,3 +1,4 @@
 public API
 sha512Crypt: aString withSalt: aSaltString		
-	^ self ffiCall: #(String sha512_crypt (String aString, String aSaltString)) 
+	^ self ffiCall: #(char* sha512_crypt (char* aString, char* aSaltString)) 
+		module: self library
