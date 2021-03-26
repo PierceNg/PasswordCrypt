@@ -1,3 +1,3 @@
 public API
-sha512Crypt: aString withSalt: aSaltString
-	^ self class sha512Crypt: aString withSalt: aSaltString 
+sha512Crypt: aString withSalt: aSaltString		
+	^ self ffiCall: #(String sha512_crypt (String aString, String aSaltString)) 

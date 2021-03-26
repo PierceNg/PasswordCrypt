@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "PierceNg 1/20/2019 14:17",
-	"super" : "Object",
+	"super" : "FFILibrary",
 	"category" : "PasswordCrypt",
 	"classinstvars" : [ ],
 	"pools" : [ ],
