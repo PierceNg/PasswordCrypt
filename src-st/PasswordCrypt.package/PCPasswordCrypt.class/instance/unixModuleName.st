@@ -1,0 +1,3 @@
+private
+unixModuleName 
+	^ 'libshacrypt.so'
