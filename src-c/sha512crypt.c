@@ -607,6 +607,8 @@ sha512_crypt_r (const char *key, const char *salt, char *buffer, int buflen)
 
 /* This entry point is equivalent to the `crypt' function in Unix
    libcs.  */
+#define EXPORT __attribute__((visibility("default")))
+EXPORT
 char *
 sha512_crypt (const char *key, const char *salt)
 {

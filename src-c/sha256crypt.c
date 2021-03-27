@@ -561,7 +561,8 @@ sha256_crypt_r (const char *key, const char *salt, char *buffer, int buflen)
 
 /* This entry point is equivalent to the `crypt' function in Unix
    libcs.  */
-char *
+#define EXPORT __attribute__((visibility("default")))
+EXPORT char *
 sha256_crypt (const char *key, const char *salt)
 {
   /* We don't want to have an arbitrary limit in the size of the
