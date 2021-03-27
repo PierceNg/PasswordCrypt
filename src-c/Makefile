@@ -32,4 +32,4 @@ help:
 #
 # /!\ Windows is untested...
 %.so %.dylib %.dll : sha256crypt.c sha512crypt.c
-	$(CC) $(CFLAGS) -shared -o $@ $^
+	$(CC) $(CFLAGS) -shared -fPIC -o $@ $^
